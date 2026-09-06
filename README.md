@@ -3,7 +3,7 @@
 The Green Trees Initiative      
 A responsive HTML and CSS website for The Green Trees Initiative.
 
-Technologies Used:
+Technologies Used:     
 HTML5      
 CSS3     
 Responsive Web Design     
