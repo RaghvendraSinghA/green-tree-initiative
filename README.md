@@ -24,7 +24,7 @@ Option 2: Open from filesystem :
 
 
 You can also open index.html manually from your filesyste, just click on    
- it with mouse-cursor in your file system and then select a browser to open it    
+ index.html with mouse-cursor in your file system and then select a browser to open it    
  then, it will run home.html file in your browser.
 
 
