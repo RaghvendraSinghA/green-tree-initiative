@@ -1,0 +1,778 @@
+*{
+    padding:0px;
+    margin:0px;
+    text-decoration:none;
+    box-sizing:border-box;
+    /* font-family: Helvetica; */
+    /* font-size: 1.5rem;
+    line-height: 1.75rem; These overwrite html fontsize too which affects rem even font
+    helvetica creates problem and increases all elements font size. */
+
+}
+
+html {
+    scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    margin: 0;
+}
+
+/* header */
+
+.header{
+    padding-left:11.11vw;
+    padding-right:11.11vw;
+    padding-top:1.75rem;
+    padding-bottom:1.75rem;
+}
+
+.header .container{
+    display:flex;
+    justify-content:center;
+}
+
+.header .container .logo{
+    width:12.18rem;
+    height:4rem;
+    font-weight:bold;
+    color:#354463;
+    font-family:Helvetica;
+    font-size:1.75rem;
+    line-height:2.25rem;
+    letter-spacing:0px;
+    text-align:center;
+}
+
+
+
+/* main */
+
+
+.label-col{
+    display:inline-flex;
+    flex-direction:column;
+    gap:0.81rem;
+
+    font-size:0.875rem;
+    line-height:1.06rem;
+    letter-spacing: 0.56px;
+    color: white;
+    font-family:Helvetica;
+}
+
+.label-col input{
+    font-family:Helvetica;
+    font-weight:300;
+    letter-spacing:-0.4px;
+    opacity:1;
+    font-size:1.25rem;
+    line-height:2rem;
+    border:none;
+    border-bottom:1px solid #97f3b9;
+    background-color:#354463;
+  
+}
+
+
+
+.main{
+    background-image:url("../assets/donation/annie-spratt-427340-unsplash.png");
+    background-position:0% 0%;
+    background-size:cover;
+
+    padding-left:11.11vw;
+    padding-right:11.11vw;
+    padding-top:5rem;
+    padding-bottom:8rem;
+
+    display:flex;
+    justify-content:space-between;
+}
+
+.main .container{
+    background-color:#354463;
+    width:44.44vw;
+    padding-left:4.44vw;
+    padding-right:4.44vw;
+    padding-top:3.625rem;
+    padding-bottom:4.37rem;
+}
+
+.main .container .your-information-tag{
+    font-weight:bold;
+    font-size:1.75rem;
+    line-height:2.25rem;
+    font-family:Helvetica;
+    color:#FFFFFF;
+}
+
+
+.main .container .name{
+    margin-top:1.81rem;
+    display:flex;
+    justify-content:space-between;
+}
+
+
+
+.main .container .street-address{
+    width:100%;
+    margin-top:1.68rem;
+}
+
+.main .container .street-address .street-input{
+    width:100%;
+}
+
+
+.main .container .city-state-zip .city{
+    width:15.55vw;
+}
+
+.main .container .city-state-zip .state{
+    width:6.66vw;
+    gap:1.25rem;
+}
+
+.main .container .city-state-zip .state .select-state{
+    width:6.66vw;
+    font-family:Helvetica;
+    font-weight:300;
+    letter-spacing:-0.4px;
+    opacity:1;
+    font-size:1.25rem;
+    line-height:2rem;
+    border:none;
+    border-bottom:1px solid #97f3b9;
+    color:#97f3b9;
+    background-color:#354463;
+}
+
+
+
+.main .container .city-state-zip .zip-code{
+    width:6.66vw;
+}
+
+
+
+.main .container .city-state-zip{
+    margin-top:1.43rem;
+    display:grid;
+    grid-template-columns:2fr 1fr 1fr;
+    gap:10px;
+    align-items:center;
+}
+
+
+.main .container .email-address .email{
+    margin-top:1.625rem;
+    width:100%;
+}
+
+
+.main .container .payment-info{
+    margin-top:3.43rem;
+    font-weight:bold;
+    font-size:1.75rem;
+    line-height:2.25rem;
+    font-family:Helvetica;
+    color:#FFFFFF;
+
+}
+
+
+
+.main .container .credit-card-info{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:10px;
+    margin-top:1.43rem;;
+    
+}
+
+
+.main .container .credit-card-no{
+    margin-top:1.75rem;
+    width:100%;
+}
+
+
+.main .container .credit-card-info .expiration{
+    width:6rem;
+}
+
+.main .container .credit-card-info .year{
+    margin-top:1.0625rem;
+    width:6rem;
+}
+
+.main .container .credit-card-info .cvc{
+    width:6.75rem;
+    white-space:nowrap;
+}
+
+
+
+
+
+.main .container .confirmation{
+    margin-top:3.56rem;
+    font-weight:bold;
+    font-size:1.75rem;
+    line-height:2.25rem;
+    font-family:Helvetica;
+    color:#FFFFFF;
+}
+
+.main .container .back-and-proceed{
+    margin-top:2.81rem;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.main .container .go-back{
+    color:#97f3b9;
+    text-decoration:underline;
+    font-family: Helvetica;
+}
+
+.main .container .proceed{
+    background-color:#97f3b9;
+    font-family: Helvetica;
+    width:17.77vw;
+    white-space:nowrap;
+    height:3.5rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:100px;
+}
+
+
+
+.main .slogan{
+    width:24rem;
+    height:22.625rem;
+
+    font-size:4.5rem;
+    line-height:4.75rem;
+
+    font-family:flood-std;
+    color:#FFFFFF;
+}
+
+
+
+@media screen and (min-width:768px) and (max-width:1080px){
+    .header{
+        padding-left:8.33vw;
+        padding-right:8.33vw;
+    }
+
+    .main{
+        display:flex;
+        flex-direction:column-reverse;
+        align-items:center;
+        justify-content:center;
+        width:100%;
+        padding-left:8.33vw;
+        padding-right:8.33vw;
+        padding-top:4rem;
+        padding-bottom:5rem;
+    }
+
+    .main .container{
+        width:100%;
+    }
+
+    .main .slogan{
+        width:32rem;
+        text-align:center;
+
+        font-size:2.75rem;
+        line-height:2.875rem;
+        letter-spacing:0px;
+        font-weight:normal;
+
+        height:6.5rem;
+    }
+
+    .main .container{
+        margin-top:2rem;
+        padding-left:8.33vw;
+        padding-right:8.33vw;
+        padding-top:3.625rem;
+        padding-bottom:4.375rem;
+    }
+
+
+    .main .container .back-and-proceed .proceed{
+        width:33.33vw;
+        height:3.5rem;
+    }
+}
+
+
+@media screen and (max-width:767px){
+
+    .label-col{
+    display:inline-flex;
+    flex-direction:column;
+    gap:0.4375rem;
+
+    font-size:0.68rem;
+    line-height:0.81rem;
+    letter-spacing: 0.44px;
+    color: white;
+    font-family:Helvetica;
+    }
+
+    .label-col input{
+    font-family:Helvetica;
+    font-weight:1;
+    letter-spacing:-0.16px;
+    opacity:0.8;
+    font-size:1rem;
+    line-height:1.5rem;
+    border:none;
+    border-bottom:2px solid #C1F7D5;
+    background-color:#354463;
+  
+    }
+
+
+        /* card code above */
+    .header{
+        padding-left:8.88vw;
+        padding-right:8.88vw;
+    }
+
+    .header .container{
+        width:100%;
+    }
+
+    .header .container .logo{
+        height:2.5rem;
+        width:7.875rem;
+        font-size:1.125rem;
+        line-height:1.375rem;
+    }
+
+    .main{
+        display:flex;
+        flex-direction:column-reverse;
+        align-items:center;
+        justify-content:center;
+        width:100%;
+        padding-left:8.88vw;
+        padding-right:8.88vw;
+        padding-top:2.06rem;
+        padding-bottom:2rem;
+    }
+
+    .main .slogan{
+        width:19.5rem;
+        text-align:center;
+
+        font-size:2rem;
+        line-height:2.875rem;
+        letter-spacing:0px;
+        font-weight:normal;
+
+        height:4.93rem;
+    }
+
+    .main .container{
+        width:100%;
+        margin-top:1.5625rem;
+        padding-left:8.6vw;
+        padding-right:8.88vw;
+        padding-top:2rem;
+        padding-bottom:2.06rem;
+    }
+
+    .main .container .your-information-tag{
+        font-size:1.375rem;
+        line-height:1.75rem;
+    }
+
+    .main .container .name{
+        gap:4.44vw;
+    }
+    .main .container .name input{
+        width:100%;
+    }
+
+
+    .main .container .city-state-zip{
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        gap: 10px;
+        align-items: center;
+    }
+
+     .main .container .city-state-zip .city input{
+        width:29vw;
+    }
+
+
+    .main .container .city-state-zip .state .select-state{
+        width:13.88vw;
+        border:none;
+        border-bottom:2px solid #C1F7D5;
+    }
+
+    .main .container .city-state-zip .state{
+        width:13.88vw;
+        gap:0.365rem;
+    }
+
+    .main .container .city-state-zip .zip-code{
+        width:13.88vw;
+        gap:0.365rem;
+    }
+
+    .main .container .city-state-zip .city{
+        white-space:nowrap;
+    }
+
+    .main .container .payment-info{
+        font-size:1.375rem;
+        line-height:1.75rem;
+
+    }
+
+    .main .container .confirmation{
+        font-size:1.125rem;
+        line-height:1.375rem;
+    }
+
+    .main .container .credit-card-info{
+        display:flex;
+        width:100%;
+        align-items:center;
+        gap:4.44vw;
+    }
+
+    .main .container .credit-card-info .expiration{
+        width:13.88vw;
+    }
+
+    .main .container .credit-card-info .year{
+        margin-top:0.81rem;
+        width:13.88vw;
+    }
+
+    .main .container .credit-card-info .cvc{
+        margin-top:-1px;
+        width:13.88vw;
+    }
+
+
+
+
+    .main .container .back-and-proceed{
+        margin-top:0.93rem;
+        display:flex;
+        flex-direction:column-reverse;
+        align-items:flex-start;
+        gap:1.5rem;
+    }
+
+    .main .container .back-and-proceed .proceed{
+        width:100%;
+        height:3.05rem;
+    }
+
+    .main .slogan{
+        width:100%;
+    }
+}
+
+
+
+
+/* footer */
+
+
+.footer-card{
+    height:7.125rem;
+    width:10rem;
+    color:#354463;
+    
+}
+
+
+.footer-card .card-heading{
+    font-size:0.875rem;
+    line-height:1.06rem;
+    font-family:Helvetica;
+    letter-spacing:0.56px;
+    border-bottom:1px solid #354463;
+    padding-top:0.30rem;
+    padding-bottom:0.56rem;
+}
+
+.footer-card .address{
+    font-size:0.875rem;
+    line-height:1.25rem;
+    font-family:Helvetica;
+    letter-spacing:-0.14px;
+    font-weight:300;
+}
+
+.footer-card .link{
+    font-size:0.875rem;
+    line-height:1.25rem;
+    font-family:Helvetica;
+    letter-spacing:-0.14px;
+    font-weight:300;
+    display:block;
+}
+
+
+
+.footer{
+    padding-left:11.11vw;
+    padding-top:7.06rem;
+    padding-right:10.97vw;
+    padding-bottom:7.51rem;
+}
+
+.footer .container{
+    display:grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr 1.5fr;
+    grid-template-rows:1fr;
+}
+
+.footer .container .footer-logo{
+    width:12rem;
+    height:5.06rem;
+
+    font-size:1.375rem;
+    line-height:1.75rem;
+    font-weight:bold;
+    color:#354463;
+    font-family:Helvetica;
+}
+
+
+
+.footer .container .footer-slogan{
+    width:11.31rem;
+    height:8.5rem;
+
+    font-size:2.75rem;
+    font-family:flood-std;
+    color:#354463;
+    padding-left:6.75rem;
+    margin-top:-1rem;
+}
+
+
+
+
+@media screen and (min-width:768px) and (max-width:1080px){
+    
+.footer-card{
+    height:7.25rem;
+    width:16.40vw;
+    color:#354463;
+    
+}
+
+
+.footer-card .card-heading{
+    font-size:0.68rem;
+    line-height:0.81rem;
+    font-family:Helvetica;
+    letter-spacing: 0.44px;
+    border:none;
+    padding-top:0.30rem;
+    padding-bottom:0.68rem;
+}
+
+.footer-card .address{
+    font-size:0.875rem;
+    line-height:1.25rem;
+    font-family:Helvetica;
+    letter-spacing:-0.14px;
+    font-weight:300;
+}
+
+.footer-card .link{
+    font-size:0.875rem;
+    line-height:1.25rem;
+    font-family:Helvetica;
+    letter-spacing:-0.14px;
+    font-weight:300;
+    display:block;
+    text-decoration:underline;
+}
+
+
+
+.footer{
+    padding-left:8.33vw;
+    padding-top:3.75rem;
+    padding-right:9.76vw;
+    padding-bottom:3.32rem;
+}
+
+.footer .container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr;
+    gap:3rem;
+}
+
+.footer .container .footer-logo{
+    width:9.56rem;
+    height:3.125rem;
+
+    grid-row:1/2;
+    grid-column:1/2;
+}
+
+
+
+.footer .container .footer-slogan{
+    width:11.31rem;
+    height:8.5rem;
+
+    grid-row:2/3;
+    grid-column:3/4;
+    padding-left:0rem;
+    margin-top:-0.6rem;
+}
+
+
+
+.footer .container .contact-us{
+    padding-top:0.2rem;
+    grid-row:1/2;
+    grid-column:2/3;
+}
+
+.footer .container .follow-us{
+    margin-top:-0.3rem;
+    grid-row:1/2;
+    grid-column:3/4;
+}
+
+.footer .container .learn-more{
+    grid-row:2/3;
+    grid-column:2/3;
+}
+
+}
+
+
+
+@media screen and (max-width:767px){
+
+.footer-card{
+    height:8.25rem;
+    width:35vw;
+    color:#354463;
+    
+}
+
+
+.footer-card .card-heading{
+    font-size:0.68rem;
+    line-height:0.81rem;
+    font-family:Helvetica;
+    letter-spacing: 0.44px;
+    border:none;
+    padding-top:0.30rem;
+    padding-bottom:0.68rem;
+}
+
+.footer-card .address{
+    font-size:0.875rem;
+    line-height:1.25rem;
+    font-family:Helvetica;
+    letter-spacing:-0.14px;
+    font-weight:300;
+}
+
+.footer-card .link{
+    font-size:0.875rem;
+    line-height:1.25rem;
+    font-family:Helvetica;
+    letter-spacing:-0.14px;
+    font-weight:300;
+    display:block;
+    text-decoration:underline;
+}
+
+
+
+.footer{
+    padding-left:8.88vw;
+    padding-top:4.18rem;
+    padding-right:8.61vw;
+    padding-bottom:3.44rem;
+}
+
+.footer .container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr;
+    gap:3rem;
+}
+
+.footer .container .footer-logo{
+    width:5.875rem;
+    height:3.875rem;
+
+    grid-row:1/2;
+    grid-column:1/2;
+
+    font-size:1.125rem;
+    line-height:1.375rem;
+}
+
+.footer .container .footer-slogan{
+    width:11.31rem;
+    height:8.5rem;
+    font-size:2.75rem;
+    line-height:2.875rem;
+
+    grid-row:3/4;
+    grid-column:1/3;
+    padding-left:7.3rem;
+    margin-top:-0.6rem;
+}
+
+
+
+.footer .container .contact-us{
+    padding-top:0rem;
+    padding-bottom:0.68rem;
+    grid-row:1/2;
+    grid-column:2/3;
+    margin-top:-0.18rem;
+}
+
+.footer .container .follow-us{
+    margin-top:-0.3rem;
+    grid-row:2/3;
+    grid-column:1/2;
+}
+
+.footer .container .learn-more{
+    grid-row:2/3;
+    grid-column:2/3;
+    margin-top:-0.31rem;
+}
+
+}
