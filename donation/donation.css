@@ -1,26 +1,3 @@
-* {
-    padding: 0px;
-    margin: 0px;
-    text-decoration: none;
-    box-sizing: border-box;
-    /* font-family: Helvetica; */
-    /* font-size: 1.5rem;
-    line-height: 1.75rem; These overwrite html fontsize too which affects rem even font
-    helvetica creates problem and increases all elements font size. */
-
-}
-
-html {
-    scrollbar-width: none;
-}
-
-html::-webkit-scrollbar {
-    display: none;
-}
-
-body {
-    margin: 0;
-}
 
 /* header */
 
@@ -90,8 +67,8 @@ body {
 }
 
 .label-col input:focus {        /* added this */
-    border-radius: 5px;
-    outline: 2px solid #97f3b9;
+    border-radius: 0.31rem;
+    outline: 0.125rem solid #97f3b9;
     border:none;
 }
 
