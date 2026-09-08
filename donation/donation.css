@@ -86,6 +86,13 @@ body {
     border: none;
     border-bottom: 1px solid #97f3b9;
     background-color: #354463;
+    color:white;        /* fixed this */
+}
+
+.label-col input:focus {        /* added this */
+    border-radius: 5px;
+    outline: 2px solid #97f3b9;
+    border:none;
 }
 
 /* done till here */
