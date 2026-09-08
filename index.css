@@ -1,0 +1,3217 @@
+.navbar{
+    height: clamp(8rem, 14.22vh, 12.5rem);
+    /* Assume 1440x900 so, 900px is height and then 128px to 200px */
+    /*used to set height of navbar in range if device height changes */
+    /* middle will calculate value but range will not allow to exceed */
+    /* started first line of project with clamp, wow */
+
+    opacity:1;
+}
+
+.navbar{
+    background-color: #FFFFFF;
+}
+
+
+.navbar .container{
+    margin-left:11vw;
+    margin-right:11vw;
+    height:inherit;
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.navbar .container{
+    /* nothing in style */
+}
+
+
+.navbar .container .logo-and-links{
+    width:66.67vw;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.navbar .container .logo-and-links{
+    font-family: Helvetica;
+}
+
+
+
+.navbar .container .logo-and-links .logo{
+    width:10rem;
+    height:3.9rem;
+}
+
+
+.navbar .container .logo-and-links .logo{
+    color:#354463;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: 1.375rem;
+    line-height: 1.75rem; 
+}
+
+
+.navbar .container .logo-and-links .links{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:40vw;
+}
+
+.navbar .container .logo-and-links .links{
+    /* nothing in style */
+}
+
+.navbar .container .logo-and-links .links a{
+    /* nothing in structure */
+}
+
+.navbar .container .logo-and-links .links a{
+    color:#354463;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height:1.5rem;
+    font-family: Helvetica;
+}
+
+.navbar .container .logo-and-links .links{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:40vw;
+}
+
+.navbar .container .logo-and-links .links{
+    /* nothing in style */
+    /* height:50px; */
+}
+
+
+.navbar .container .donate-today-btn{
+    /* width:11.11vw; this was breaking*/
+    width:10rem;
+    height:3rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-left:4.9vw;
+    opacity: 1; 
+}
+
+.navbar .container .donate-today-btn{
+    padding-left:0.875vw;
+    padding-right:0.875vw;
+
+    background-color: #C1F7D5;
+    background-clip: padding-box;
+    border-radius: 6.25rem;
+    color: #354463;
+
+
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: 1.125rem;
+    line-height:1.375rem;
+    font-family: Helvetica;
+
+}
+
+
+
+/* media queries */
+
+
+@media screen and (min-width:768px)and (max-width:1080px){
+
+    /* navbar-home */
+
+    .navbar .container{
+        margin-left:8.33vw;
+        margin-right:8.33vw;
+        height:inherit;
+        justify-content:start;
+    }
+
+     .navbar .container{
+        /* nothing in style */
+    }
+
+    .navbar .container .logo-and-links{
+        height:inherit;
+
+        display:flex;
+        flex-direction:column;
+        align-items:start;
+        justify-content:center; 
+        gap:2.08vh;
+    }
+
+    .navbar .container .logo-and-links{
+        /* nothing in style */
+    }
+
+
+    .navbar .container .donate-today-btn{
+        height:2rem;
+        justify-content:center;
+        margin-left:0vw;
+     }
+
+     .navbar .container .donate-today-btn{
+        white-space:nowrap;
+        font-size: 1rem;
+        line-height:1rem;
+     }
+
+
+
+
+}
+
+
+
+@media screen and (max-width:767px){
+    .navbar{
+        height:12.5rem;
+    }
+
+    .navbar{
+        /* nothing in style */
+    }
+
+    .navbar .container{
+        display:flex;
+        flex-direction:column;
+        justify-content:space-evenly;
+        align-items:end;
+
+        margin-left:8.8vw;
+        margin-right:8.51vw;
+    }
+
+    .navbar .container{
+        /* nothing in style */
+    }
+
+    .navbar .container .donate-today-btn{
+        width:100%;
+        padding:0;
+    }
+
+    .navbar .container .donate-today-btn{
+        /* nothing in style */
+    }
+
+
+    .navbar .container .logo-and-links{
+        width:100%;
+        display:flex;
+        justify-content:space-between;
+    }
+
+    .navbar .container .logo-and-links{
+        /* nothing in style */
+    }
+
+
+
+    .navbar .container .logo-and-links .logo{
+        width:8.125rem;
+        height:2.5rem;
+    }
+
+    .navbar .container .logo-and-links .logo{
+        font-size: 1.125rem;
+        line-height:1.375rem;
+        letter-spacing:0rem;
+    }
+
+
+    .navbar .container .logo-and-links .links{
+        height:9vh;
+        width:6.5rem;
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+        align-items:start;
+    }
+
+
+    .navbar .container .logo-and-links .links{
+        /* nothing in style */
+    }
+
+
+    .navbar .container .logo-and-links .links a{
+        /* nothing in structure */
+
+    }
+
+    .navbar .container .logo-and-links .links a{
+        font-weight: 300;
+        font-size: 0.85rem;
+        line-height: 1.25rem;
+        white-space:nowrap;
+        letter-spacing:-0.00875rem;
+
+    }
+}
+
+
+
+/*pseudo selectors for 1080 and above on header*/
+
+@media screen and (min-width:1081px){
+
+.navbar .container .donate-today-btn:hover{
+    border:2px solid #354463;
+}
+
+.navbar .container .logo-and-links .links .about-us:hover{
+    height:3.125rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-bottom:2px solid #354463;
+}
+.navbar .container .logo-and-links .links .our-stories:hover{
+    height:3.125rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-bottom:2px solid #354463;
+}
+.navbar .container .logo-and-links .links .news-and-events:hover{
+    height:3.125rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-bottom:2px solid #354463;
+}
+}
+
+
+
+
+
+/* main and issue */
+
+
+.main{
+    /* nothing in structure */
+}
+
+.main{
+    padding-left:11vw;
+    padding-right:11vw;
+    padding-top:14.22vh;
+    padding-bottom:14.22vh;
+
+    background-image:url(../assets/home-page/annie-spratt-135307-unsplash.png);
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+.main .issue-and-slogan{
+    display:flex;
+    justify-content:space-between;
+
+}
+
+.main .issue-and-slogan{
+}
+
+
+.main .issue-and-slogan .issue{
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    position:relative;
+    gap:2rem;
+}
+
+.main .issue-and-slogan .issue{
+    background-color:white;
+
+    padding-left:4.44vw;
+    padding-right:4.44vw;
+    padding-top:8.44vh;
+    padding-bottom:8.33vh;
+
+}
+
+
+.main .issue-and-slogan .issue .issue-tag{
+    position:absolute;
+    top:-1rem;
+    left:4.7vw;
+    width:11.11vw;
+    height:4.44vh;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+}
+
+
+.main .issue-and-slogan .issue .issue-tag{
+    background-color:#354463;
+    color:white;
+    letter-spacing: 0.035rem;
+    font-family: Helvetica;
+    white-space:nowrap;
+}
+
+
+.main .issue-and-slogan .issue .info{
+    /* nothing in structure */
+}
+
+.main .issue-and-slogan .issue .info{
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: 4.88vh;
+    line-height: 6.22vh;
+    font-family: Helvetica;
+    color:#354463;
+}
+
+.main .issue-and-slogan .slogan{
+
+    height:24.88vh;
+    width:32.88vw;
+    background-size:contain;
+    background-position:0% 0%;
+    background-repeat: no-repeat;
+    opacity:1;
+    margin-left:10vw;
+}
+
+.main .issue-and-slogan .slogan{
+    background-image:url(../assets/home-page/stopclimatechange.png);
+    padding-top:1.5rem;
+    
+}
+
+
+.main .issue-and-slogan .issue .read-more{
+    /* nothing in structure */
+}
+
+.main .issue-and-slogan .issue .read-more{
+    text-decoration:underline;
+    letter-spacing: -0.16px;
+
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Helvetica;
+    color:#354463;
+}
+
+
+@media screen and (min-width:768px)and (max-width:1080px){
+
+    .main{     
+        background-size:cover;
+        background-position:100% 100%;
+        background-repeat: no-repeat;
+    }
+
+
+     .main{
+        padding-top:9.51vh;
+        padding-left:8.33vw;
+        padding-right:8.33vw;
+        padding-bottom:11.03vh;
+    }
+
+
+    .main .issue-and-slogan{
+        display:flex;
+        flex-direction:column-reverse;
+        align-items:start;
+        justify-content:space-between;
+        width:100%;
+        gap:12.96vh;
+    }
+    .main .issue-and-slogan{
+        /* nothing in style */
+    }
+
+    .main .issue-and-slogan .slogan{
+        height:18.75vh;
+        width:23.56vw;
+        background-size:contain;
+        background-position:0% 0%;
+        background-repeat: no-repeat;
+        margin-left:0;
+    }
+
+    .main .issue-and-slogan .slogan{
+        padding-top:0;
+    }
+
+    .main .issue-and-slogan .issue{
+        width:100%;
+        display:flex;
+        flex-direction:column;
+    }
+
+    .main .issue-and-slogan .issue{
+        padding-top:8.13vh;
+        padding-left:8.33vw;
+        padding-bottom:8.82vh;
+        padding-right:8.33vw;
+    }
+
+
+    .main .issue-and-slogan .issue .issue-tag{
+        position:absolute;
+        top:-1rem;
+        left:8.5vw;
+        width:20.31vw;
+        height:5.5vh;
+    }
+
+    .main .issue-and-slogan .issue .issue-tag{
+        font-size:1.93vh;
+        line-height:2.34vh;
+        letter-spacing: 0.56px;
+    }
+
+    .main .issue-and-slogan .issue .info{
+        /* nothing in structure */
+    }
+
+    .main .issue-and-slogan .issue .info{
+        font-size:4.96vh;
+        line-height:6.34vh;
+        letter-spacing:0px;
+    }
+}
+
+
+
+@media screen and (max-width:767px){
+
+    .main{
+        background-size:cover;
+        background-position:100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    .main{
+        padding-top:4.41vh;
+        padding-left:8.8vw;
+        padding-right:8.8vw;
+        padding-bottom:6.62vh;
+    }
+
+
+    .main .issue-and-slogan{
+        display:flex;
+        flex-direction:column-reverse;
+        align-items:start;
+        justify-content:space-between;
+        width:100%;
+        gap:8.5rem;
+    }
+
+     .main .issue-and-slogan{
+        /* nothing in style */
+    }
+
+    .main .issue-and-slogan .slogan{
+        height:8.5rem;
+        width:11.31rem;
+        background-size:contain;
+        background-position:0% 0%;
+        background-repeat: no-repeat;
+        margin-left:0;
+    }
+
+    .main .issue-and-slogan .slogan{
+        padding-top:0;
+    }
+
+    .main .issue-and-slogan .issue{
+        width:100%;
+        display:flex;
+        flex-direction:column;
+    }
+
+    .main .issue-and-slogan .issue{
+        padding-top:7.72vh;
+        padding-left:5.27vw;
+        padding-bottom:4.27vh;
+        padding-right:4.16vw;
+    }
+
+
+    .main .issue-and-slogan .issue .issue-tag{
+        position:absolute;
+        top:-1rem;
+        left:18vw;
+        width:44.44vw;
+        height:5.5vh;
+    }
+
+    .main .issue-and-slogan .issue .issue-tag{
+        font-size:1.93vh;
+        line-height:2.34vh;
+        letter-spacing: 0.56px;
+    }
+
+    .main .issue-and-slogan .issue .info{
+        /* nothing in structure */
+    }
+
+    .main .issue-and-slogan .issue .info{
+        font-size:3.03vh;
+        line-height:3.8vh;
+        letter-spacing:0px;
+        text-align:center;
+    }
+
+    .main .issue-and-slogan .issue .read-more{
+        /* nothing in structure */
+    }
+
+    .main .issue-and-slogan .issue .read-more{
+        letter-spacing:0px;
+        text-align:center;
+    }
+
+}
+
+
+
+
+
+/* take-action-container */
+
+.take-action{
+    display:flex;
+    align-items:center;
+    position:relative;
+
+}
+
+.take-action{
+    background-color: #C1F7D5;
+    padding-left:11vw;
+    padding-right:12.77vw;
+    padding-top:8.7vh;
+    padding-bottom:8vh;
+
+}
+
+.take-action .container{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    gap:3vw;
+}
+
+.take-action .container{
+    font-family:helvetica;
+    color:#354463;
+}
+
+
+.take-action .take-action-tag {
+    position:absolute;
+    top:-1.3rem;
+    left:44.58vw;
+    width:11.11vw;
+    height:4.44vh;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+}
+
+.take-action .take-action-tag {
+    background-color:#354463;
+    color:white;
+    letter-spacing: 0.56px;
+    font-family: Helvetica;
+    white-space:nowrap;
+
+}
+
+
+.take-action .container h4{
+    /* nothing in structure  */
+}
+
+.take-action .container h4{
+    font-family:helvetica;
+    font-size:3.1vh;
+    font-weight:bold;
+    line-height:4vh;
+    letter-spacing:0px;
+}
+
+.take-action .container p{
+    /* nothing in structure */
+}
+
+.take-action .container p{
+    font-family:helvetica;
+    font-size:1.7vh;
+    font-weight:300;
+    line-height:2.66vh;
+    letter-spacing:0px;
+}
+
+
+
+
+@media screen and (min-width:768px)and (max-width:1080px){
+
+
+    .take-action{
+        /* nothing in structure */
+    }
+
+    .take-action{
+        padding-left:8.33vw;
+        padding-top:8.82vh;
+        padding-bottom:8.27vh;
+        padding-right:8.33vw;
+    }
+
+    .take-action .container{
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        grid-template-rows:1fr 1fr;
+        gap:6vw;
+    }
+
+    .take-action .container{
+        font-family:helvetica;
+        color:#354463;
+    }
+
+
+    .take-action .container h4{
+        /* nothing in structure */
+    }
+
+    .take-action .container h4{
+        font-family:helvetica;
+        font-size:3.03vh;
+        font-weight:bold;
+        line-height:3.86vh;
+        letter-spacing:0px;
+    }
+
+    .take-action .container p{
+        /* nothing in struture */
+    }
+
+     .take-action .container p{
+        font-family:helvetica;
+        font-size:2.20vh;
+        font-weight:300;
+        line-height:3.31vh;
+        letter-spacing:0px;
+
+    }
+
+
+    .take-action .take-action-tag {
+        top:-1.3rem;
+        left:39.53vw;
+        width:20.83vw;
+        height:5.51vh;
+    }
+
+    .take-action .take-action-tag {
+        font-size:1.93vh;
+        line-height:2.34vh;
+    }
+
+}
+
+
+
+@media screen and (max-width:767px){
+
+    .take-action{
+        /* nothing in structure */
+    }
+
+    .take-action{
+        padding-left:8.8vw;
+        padding-top:8.55vh;
+        padding-bottom:7.72vh;
+        padding-right:8.88vw;
+    }
+
+    .take-action .container{
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        grid-template-rows:1fr 1fr;
+        gap:5vw;
+    }
+
+     .take-action .container{
+        font-family:helvetica;
+        color:#354463;
+    }
+
+
+    .take-action .container h4{
+        /* nothing in structure */
+    }
+
+    .take-action .container h4{
+        font-family:helvetica;
+        font-size:2.48vh;
+        font-weight:bold;
+        line-height:3.03vh;
+        letter-spacing:0px;
+    }
+
+    .take-action .container p{
+        /* nothing in structure */
+    }
+
+    .take-action .container p{
+        font-family:helvetica;
+        font-size:1.93vh;
+        font-weight:300;
+        line-height:2.75vh;
+        letter-spacing:0px;
+    }
+
+
+    .take-action .take-action-tag {
+        top:-1.3rem;
+        left:27vw;
+        width:44.44vw;
+        height:5.51vh;
+
+    }
+
+    .take-action .take-action-tag {
+        font-size:1.93vh;
+        line-height:2.34vh;
+    }
+
+}
+
+
+
+
+/* what we do? */
+
+.card{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    position:relative;
+    width:22.22vw;
+}
+
+.card{
+    background-color:#FFFFFF;
+    padding-left:2.22vw;
+    padding-right:2.22vw;
+}
+
+.card img{
+        width:22.22vw;
+        height:24.88vh;
+        position:absolute;
+        top:-3.125rem;
+        object-fit:fill;
+}
+
+.card img{
+        object-fit:fill;
+}
+
+.card .card-heading{
+    margin-top:24.44vh;
+}
+
+.card .card-heading{
+    font-weight: bold;
+    font-size: 3.11vh;
+    line-height: 4vh;
+    font-family: Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+}
+
+.card .card-info{
+    margin-top:0.81vh;
+}
+
+.card .card-info{
+    text-align: left;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Helvetica;
+    letter-spacing: -0.16px;
+    color: #354463;
+    padding-bottom:3.55vh;
+}
+
+
+.card button{
+    width:11.11vw;
+    height:5.33vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:3.55vh;
+    
+}
+
+.card button{
+    background-color:#C1F7D5;
+    border-radius:100px;
+    border:none;
+    font-size:1.125rem;
+    line-height:1.375rem;
+    font-weight:bold;
+    color:#354463;
+}
+
+
+
+/* resusable code above */
+
+.what-we-do .container{
+    /* nothing in structure */
+}
+
+.what-we-do .container{
+    padding-left:11vw;
+    padding-top:9.77vh;
+    padding-bottom:17.77vh;
+    padding-right:11vw;
+    background-color:#354463;
+}
+
+
+.what-we-do .container .what-we-do-tag{
+    width:11.11vw;
+    height:4.44vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.what-we-do .container .what-we-do-tag{
+    background-color:#FFFFFF;
+    letter-spacing: 0.035rem;
+    color: #354463;
+    font-size: 1.5vh;
+    line-height:1.88vh;
+    font-family: Helvetica;
+    white-space:nowrap;
+}
+
+
+.what-we-do .container .our-mission-info{
+    margin-top:4.44vh;
+}
+
+.what-we-do .container .our-mission-info{
+    padding-bottom:4.88vh;
+    font-weight: bold;
+    font-size: 4.88vh;
+    line-height: 6.22vh;
+    font-family: Helvetica;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.what-we-do .container .mission-cards{
+    margin-top:8.44vh;
+    display:flex;
+    justify-content:space-between;
+}
+
+.what-we-do .container .mission-cards{
+    /* nothing in style */
+}
+
+
+
+
+@media screen and (min-width:768px) and (max-width:1080px){
+
+
+    .card{
+        width:100%;
+        flex-direction:row-reverse;
+        margin-bottom:8.82vh;
+        height:38.62vh;
+    }
+
+    .card{
+        /* nothing in style */
+    }
+
+    .card img{
+        position:absolute;
+        left:4.16vw;
+        height:27.73vh;
+        width:37.5vw;
+        top:-5.24vh;
+    }
+
+    .card img{
+        /* nothing in style */
+    }
+
+
+    .card button{
+        position:absolute;
+        left:20.31vw;
+        top:25.48vh;
+        width:20.31vw;
+        height:5.51vh;
+    }
+
+    .card button{
+        font-weight:bold;
+        font-size:1.125rem;
+        line-height:1.375rem;
+        font-style:inherit;
+        color:#354463;
+    }
+
+
+    .card .heading-and-info{
+        margin-top:4.96vh;
+        margin-right:1.46vw;
+        width:32.03vw;
+        margin-left:45.83vw;
+        
+    }
+
+    .card .heading-and-info{
+        /* nothing in style */
+    }
+
+    .card .heading-and-info .card-heading{
+        margin-top:0;
+    }
+
+    .card .heading-and-info .card-heading{
+        font-size:3.03vh;
+        line-height:3.86vh;
+    }
+
+    .card .heading-and-info .card-info{
+        margin-top:3vh;
+    }
+
+     .card .heading-and-info .card-info{
+        font-size:1rem;
+        line-height:1.5rem;
+    }
+
+
+    .what-we-do .container{
+        /* nothing in structure */
+    }
+
+    .what-we-do .container{
+        padding-top:8.27vh;
+        padding-left:8.33vw;
+        padding-right:8.33vw;
+        padding-bottom:7.72vh;
+    }
+
+    .what-we-do .container .what-we-do-tag{
+        width:20.83vw;
+    }
+
+    .what-we-do .container .what-we-do-tag{
+        font-size:1.93vh;
+        line-height:2.34vh;
+    }
+
+
+    .what-we-do .container .our-mission-info{
+        margin-top:4.41vh;
+    }
+
+    .what-we-do .container .our-mission-info{
+        padding-bottom:1vh;
+
+        font-size:2.25rem;
+        line-height:2.875rem;
+    }
+
+
+    .what-we-do .container .mission-cards{
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+        width:100%;
+        margin-top:12.13vh;
+    }
+
+    .what-we-do .container .mission-cards{
+        /* nothing in style */
+    }
+
+}
+
+
+@media screen and (max-width:767px){
+
+
+    .card{
+        width:100%;
+        margin-bottom:8.82vh;
+        height:auto;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+    }
+
+     .card{
+        /* nothing in style */
+    }
+
+    .card img{
+        position:absolute;
+        left:6.8vw;
+        height:24.27vh;
+        width:68.88vw;
+        top:-5.24vh;
+    }
+
+    .card img{
+        /* nothing in style */
+    }
+
+
+    .card button{
+        position:static;
+        width:42.22vw;
+        height:5.51vh;
+    }
+
+    .card button{
+        font-weight:bold;
+        font-size:1rem;
+        line-height:1.25rem;
+        font-style:inherit;
+        color:#354463;
+    }
+
+
+    .card .heading-and-info{
+        margin:0;
+        width: 100%;
+        margin-top:24.55vh;
+        
+    }
+
+    .card .heading-and-info{
+        /* nothing in style */
+    }
+
+    .card .heading-and-info .card-heading{
+        margin-top:0;
+    }
+
+    .card .heading-and-info .card-heading{
+        font-size:1.125rem;
+        line-height:1.375rem;;
+        text-align:center;
+    }
+
+    .card .heading-and-info .card-info{
+        margin-top:3vh;
+    }
+
+    .card .heading-and-info .card-info{
+        font-size:0.875rem;
+        line-height:1.25rem;
+        text-align:center;
+        padding-left:2.21rem;
+        padding-right:2.15rem;
+    }
+
+    .what-we-do .container{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .what-we-do .container{
+        padding-left:8.8vw;
+        padding-top:5.93vh;
+        padding-bottom:4.413vh;
+        padding-right:8.8vw;
+    }
+
+    .what-we-do .container .what-we-do-tag{
+        width:44.44vw;
+        height:5.5vh;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+
+    .what-we-do .container .what-we-do-tag{
+        background-color:#FFFFFF;
+        letter-spacing: 0.56px;
+        color: #354463;
+        font-size: 1.93vh;
+        line-height:2.34vh;
+        font-family: Helvetica;
+        white-space:nowrap;
+    }
+
+
+    .what-we-do .container .our-mission-info{
+        margin-top:3.03vh;
+        width:83.33vw;
+    }
+
+
+    .what-we-do .container .our-mission-info{
+        font-weight: bold;
+        font-size:1.375rem;
+        line-height:1.75rem;
+        text-align:center;
+    }
+
+    .what-we-do .container .mission-cards{
+        width:100%;
+        margin-top:5.125rem;
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+    }  
+
+     .what-we-do .container .mission-cards{
+        /* nothing in style */
+    }  
+
+}
+
+
+
+/* did you know */
+
+/* .did-you-know p{
+    font-family: "Flood-std", sans-serif;
+} */
+
+.did-you-know-card{
+
+    height:25.77vh;
+    width:37.77vw;
+    display:flex;
+    flex-direction:column;
+
+}
+
+.did-you-know-card{
+
+    padding-left:4.44vw;
+    padding-right:3.88vw;
+    padding-top:4.88vh;
+    padding-bottom:5.88vh;
+    background-color:white;
+
+}
+
+.did-you-know-card .heading-and-logo{
+    display:flex;
+    justify-content:space-between;
+}
+
+.did-you-know-card .heading-and-logo{
+    /* nothing in style */
+}
+
+.did-you-know-card .description-and-logo{
+    display:flex;
+    justify-content:space-between;
+}
+
+.did-you-know-card .description-and-logo{
+    /* nothing in style */
+}
+
+
+.did-you-know-card .heading-and-logo .heading{
+    /* nothing in structure */
+}
+
+
+.did-you-know-card .heading-and-logo .heading{
+    font-weight: bold;
+    font-size: 2.75rem;
+    line-height: 3.5rem;
+    font-family: Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    letter-spacing:0;
+}
+
+.did-you-know-card .logo{
+    height:2rem;
+    width:2rem;
+    margin-top:1.25rem;
+}
+
+.did-you-know-card .logo{
+    background-color:#C1F7D5;
+    border-radius:100%;
+    object-fit:contain;
+    padding:0.5rem;
+}
+
+.did-you-know-card .description{
+    width:78%;
+}
+
+.did-you-know-card .description{
+    font-family:Helvetica;
+    font-size:1.25rem;
+    letter-spacing:-0.4px;
+    color:#354463;
+    line-height:1.5rem;
+}
+
+
+.did-you-know{
+   /* nothing in structure */
+}
+
+.did-you-know{
+    padding-left:11vw;
+    padding-right:11vw;
+    padding-top:14.22vh;
+    padding-bottom:14.11vh;
+    background-image:url("../assets/home-page/did-you-know-background.png");
+    background-repeat:no-repeat;
+    background-position:0% 0%;
+    background-size:cover;
+    background-color: transparent;
+}
+
+
+.did-you-know .container{
+    display:flex;
+    justify-content:space-between;
+}
+
+.did-you-know .container{
+    /* nothing in style */
+}
+
+
+
+.did-you-know .container .slogan-and-button .slogan{
+    height:18.75rem;
+    width:27.31rem;
+}
+
+.did-you-know .container .slogan-and-button .slogan{
+    font-family: "Flood-std", sans-serif;
+    font-size:4.5rem;
+    color:white;
+}
+
+.did-you-know .container .slogan-and-button .button{
+    margin-top:2.76rem;
+    width:11.11vw;
+    height:5.3vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.did-you-know .container .slogan-and-button .button{
+    color:#354463;
+    border-radius:100px;
+    font-size:1.125rem;
+    font-weight:bold;
+    line-height:1.375rem;
+    font-family:Helvetica, sans-serif;
+    background-color:#C1F7D5;
+}
+
+
+.did-you-know .container .cards{
+    display:flex;
+    flex-direction:column;
+    gap:3.55vh;
+    position:relative;
+}
+
+.did-you-know .container .cards{
+    /* nothing in style */
+}
+
+
+.did-you-know .container .cards .tag{
+    width:11.11vw;
+    height:4.44vh;
+    top:-2.33vh;
+    position:absolute;
+    left:4.44vw;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.did-you-know .container .cards .tag{
+    background-color:#354463;
+    color:white;
+    font-family:helvetica;
+}
+
+
+@media screen and (min-width:768px) and (max-width:1080px){
+
+
+    .did-you-know-card{
+        height:20.96vh;
+        width:50vw;
+        display:flex;
+        flex-direction:column;
+    }
+
+    .did-you-know-card{
+        padding-left:4.16vw;
+        padding-right:4.16vw;
+        padding-top:4vh;
+        padding-bottom:4.27vh;
+        background-color:white;
+    }
+
+    .did-you-know-card .heading-and-logo{
+        display:flex;
+        justify-content:space-between;
+    }
+
+    .did-you-know-card .heading-and-logo{
+        /* nothing in style */
+    }
+
+
+    .did-you-know-card .description-and-logo{
+        display:flex;
+        justify-content:space-between;
+    }
+
+    .did-you-know-card .description-and-logo{
+        /* nothing in style */
+    }
+
+
+    .did-you-know-card .heading-and-logo .heading{
+        /* nothing in structure */
+    }
+
+    .did-you-know-card .heading-and-logo .heading{
+        font-weight: bold;
+        font-size: 2.25rem;
+        line-height: 2.875rem;
+    }
+
+    .did-you-know-card .logo{
+        height:2rem;
+        width:2rem;
+        margin-top:0.25rem;
+    }
+
+    .did-you-know-card .logo{
+        background-color:#C1F7D5;
+        border-radius:100%;
+        object-fit:contain;
+        padding:0.6rem;
+    }
+
+    .did-you-know-card .description{
+        width:78%;
+    }
+
+    .did-you-know-card .description{
+        font-family:Helvetica, sans-serif;
+        font-size:1rem;
+        letter-spacing:-0.4px;
+        color:#354463;
+        line-height:1.5rem;
+    }
+
+
+    .did-you-know{
+    /* nothing in structure */
+    }
+
+    .did-you-know{
+        padding-left:8.07vw;
+        padding-right:8.33vw;
+        padding-top:8.96vh;
+        padding-bottom:8.82vh;
+        background-image:url("../assets/home-page/did-you-know-background.png");
+        background-repeat:no-repeat;
+        background-position:0% 0%;
+        background-size:cover;
+        background-color: transparent;
+    }
+
+
+    .did-you-know .container{
+        display:flex;
+        justify-content:space-between;
+    }
+
+    .did-you-know .container{
+        /* nothing in style */
+    }
+
+
+
+    .did-you-know .container .slogan-and-button .slogan{
+        height:14.25rem;
+        width:12.06rem;
+    }
+
+    .did-you-know .container .slogan-and-button .slogan{
+        font-family: "Flood-std", sans-serif;
+        font-size:2.75rem;
+    }
+
+    .did-you-know .container .slogan-and-button .button{
+        margin-top:2.76rem;
+        width:20.31vw;
+        height:5.51vh;
+    }
+
+    .did-you-know .container .slogan-and-button .button{
+        color:#354463;
+        border-radius:100px;
+    }
+
+
+    .did-you-know .container .cards{
+        display:flex;
+        flex-direction:column;
+        gap:4.41vh;
+        position:relative;
+    }
+
+    .did-you-know .container .cards{
+        /* nothing in style */
+    }
+
+
+    .did-you-know .container .cards .tag{
+        width:20.83vw;
+        height:5.51vh;
+        top:-2.33vh;
+    }
+
+    .did-you-know .container .cards .tag{
+        /* nothing in style */
+    }
+
+
+}
+
+
+
+@media screen and (max-width:767px){
+
+
+.did-you-know-card{
+
+    height:20vh;
+    width:100%;
+    gap:2px;
+    display:flex;
+    flex-direction:column;
+
+
+}
+
+.did-you-know-card{
+
+    padding-left:8.88vw;
+    padding-right:8.88vw;
+    padding-top:4.68vh;
+    padding-bottom:4.13vh;
+    background-color:white;
+
+}
+
+
+
+.did-you-know-card .heading-and-logo{
+    display:flex;
+    justify-content:space-between;
+
+}
+
+.did-you-know-card .heading-and-logo{
+   /* nothing in style */
+
+}
+
+
+.did-you-know-card .heading-and-logo .heading{
+    /* nothing in structure */
+}
+
+.did-you-know-card .heading-and-logo .heading{
+    font-weight: bold;
+    font-size: 1.375rem;
+    line-height: 1.75rem;
+}
+
+.did-you-know-card .logo{
+    height:2rem;
+    width:2rem;
+    margin-top:0.25rem;
+}
+
+.did-you-know-card .logo{
+    background-color:#C1F7D5;
+    border-radius:100%;
+    object-fit:contain;
+    padding:0.6rem;
+}
+
+.did-you-know-card .description{
+    width: 82%;
+
+}
+
+.did-you-know-card .description{
+    font-family: Helvetica, sans-serif;
+    font-size: 0.775rem;
+    letter-spacing: 0px;
+    color: #354463;
+    line-height: 1.0rem;
+    font-weight: 1;
+}
+
+
+.did-you-know{
+    /* nothing in structure */
+}
+
+.did-you-know{
+    padding-left:8.8vw;
+    padding-right:8.8vw;
+    padding-top:8.82vh;
+    padding-bottom:8.8vh;
+}
+
+
+.did-you-know .container{
+    display:flex;
+    justify-content:space-between;
+    flex-direction:column;
+}
+
+.did-you-know .container{
+    /* nothing in style */
+}
+
+
+
+.did-you-know .container .slogan-and-button .slogan{
+    height:12rem;
+    width:18.5rem;
+}
+
+
+.did-you-know .container .slogan-and-button .slogan{
+    font-family: "Flood-std";
+    font-size:2.75rem;
+    line-height:2.875rem;
+}
+
+.did-you-know .container .slogan-and-button .button{
+    margin-top:1.10rem;
+    width:42.22vw;
+    height:2.5rem;
+}
+
+.did-you-know .container .slogan-and-button .button{
+    color:#354463;
+    border-radius:100px;
+}
+
+
+.did-you-know .container .cards{
+    display:flex;
+    flex-direction:column;
+    gap:2.20vh;
+    position:relative;
+}
+
+.did-you-know .container .cards{
+    padding-top:11.03vh;
+}
+
+
+.did-you-know .container .cards .tag{
+    width:44.44vw;
+    height:5.51vh;
+    top:8.4vh;
+    left:18.11vw;
+}
+
+.did-you-know .container .cards .tag{
+    /* nothing in style */
+}
+
+
+}
+
+
+/* fixed till here */
+
+/* stories */
+
+.stories .container{
+    display:flex;
+}
+
+.stories .container{
+    padding-left:11.11vw;
+    padding-right:11.11vw;
+    padding-top:14.22vh;
+    padding-bottom:14.22vh;
+}
+
+
+.stories .container .story-and-read-more{
+    
+    width:37.77vw;
+    display:flex;
+    flex-direction:column;
+    margin-right:-4.44vw;   /* 704-640 */
+    z-index:1;
+}
+
+.stories .container .story-and-read-more{
+    padding-top:14.66vh;
+}
+
+.stories .container .story-and-read-more .story-and-name{
+    /* nothing in structure */
+}
+
+.stories .container .story-and-read-more .story-and-name{
+
+    background-color: #354463;
+    color:#FFFFFF;
+
+    padding-left:4.44vw;
+    padding-right:4.44vw;
+    padding-top:5.77vh;
+    padding-bottom:7vh;
+}
+
+.stories .container .story-and-read-more .story-and-name .story{
+    /* nothing in structure */
+}
+
+.stories .container .story-and-read-more .story-and-name .story{
+    font-weight:bold;
+    font-size:1.75rem;
+    line-height:2.25rem;
+    font-family:Helvetica, sans-serif;
+    padding-bottom:4vh;  
+}
+
+.stories .container .story-and-read-more .story-and-name .name{
+    /* nothing in structure */
+}
+
+.stories .container .story-and-read-more .story-and-name .name{
+    font-weight:normal;
+    font-size:0.875rem;
+    line-height:1.06rem;
+    font-family:Helvetica, sans-serif;
+}
+
+.stories .container .story-and-read-more .read-more-btn{
+    width:11.11vw;
+    height:3rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:7.11vh;
+}
+
+.stories .container .story-and-read-more .read-more-btn{
+    font-weight:bold;
+    font-size:1.125rem;
+    line-height:1.375rem;
+    font-family:Helvetica, sans-serif;
+    background-color:#C1F7D5;
+    color:#354463;
+    border-radius:100px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.stories .container .image-and-tag .image{
+    height:63.11vh;
+    width:44.44vw;
+}
+
+.stories .container .image-and-tag .image{
+    object-fit:cover;
+}
+
+
+
+.stories .container .image-and-tag{
+    position:relative;
+}
+
+.stories .container .image-and-tag{
+    /* nothing in style */
+}
+
+.stories .container .image-and-tag .tag{
+    position:absolute;
+    width:11.11vw;
+    height:2.5rem;
+    top:-20px;
+    left:4.44vw;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.stories .container .image-and-tag .tag{
+
+    color:#FFFFFF;
+    background-color:#354463;
+    font-family:Helvetica, sans-serif;
+    font-size:0.875rem;
+    line-height:1.06rem;
+}
+
+
+
+
+
+@media screen and (min-width:768px) and (max-width:1080px){
+    .stories .container{
+        display:flex;
+        flex-direction: column-reverse;
+    }
+
+    .stories .container{
+        padding-left:8.33vw;
+        padding-right:8.33vw;
+        padding-top:8.82vh;
+        padding-bottom:9.93vh;
+    }
+
+    .stories .container .story-and-read-more{
+        width:75vw;
+        display:flex;
+        flex-direction:column;
+        margin-right:0px;   /* 704-640 */
+        z-index:1;
+        margin-top:-9.93vh;
+        margin-left:8.33vw;
+    }
+
+    .stories .container .story-and-read-more{
+        padding-top:0px;
+    }
+
+    .stories .container .story-and-read-more .story-and-name{
+        /* nothing in structure */
+    }
+
+    .stories .container .story-and-read-more .story-and-name{
+
+        background-color: #354463;
+        color:#FFFFFF;
+        padding-left:8.33vw;
+        padding-right:2.99vw;
+        padding-top:8.41vh;
+        padding-bottom:8.68vh;
+    }
+
+    .stories .container .story-and-read-more .story-and-name .story{
+        /* nothing in structure */
+    }
+
+    .stories .container .story-and-read-more .story-and-name .story{
+        font-weight:bold;
+        font-size:1.375rem;
+        line-height:1.75rem;
+        font-family:Helvetica, sans-serif;
+        padding-bottom:5.93vh;  
+    }
+
+    .stories .container .story-and-read-more .story-and-name .name{
+        /* nothing in structure */
+    }
+
+    .stories .container .story-and-read-more .story-and-name .name{
+        font-weight:normal;
+        font-size:0.875rem;
+        line-height:1.06rem;
+        font-family:Helvetica, sans-serif;
+    }
+
+    .stories .container .story-and-read-more .read-more-btn{
+        width:20.31vw;
+        height:2.5rem;
+        margin-top:2rem;
+    }
+
+    .stories .container .story-and-read-more .read-more-btn{
+        font-weight:bold;
+        font-size:1.125rem;
+        line-height:1.375rem;
+        font-family:Helvetica;
+        background-color:#C1F7D5;
+        border-radius:100px;
+    }
+
+
+    .stories .container .image-and-tag{
+        position:relative;
+    }
+
+    .stories .container .image-and-tag{
+        padding-top:2.34vh;
+    }
+
+    .stories .container .image-and-tag .image{
+        height:78.34vh;
+        width:75vw;
+    }
+
+    .stories .container .image-and-tag .image{
+        object-fit:cover;
+    }
+
+    .stories .container .image-and-tag .tag{
+        position:absolute;
+        width:20.83vw;
+        height:2.5rem;
+        top:-0.0625rem;
+        left:8.59vw;
+    }
+
+    .stories .container .image-and-tag .tag{
+        font-size:0.875rem;
+        line-height:1.06rem;
+        font-weight:normal;
+        letter-spacing:0.56px;
+    }
+}
+
+
+@media screen and (max-width:767px){
+
+
+    .stories .container{
+        display:flex;
+        flex-direction: column-reverse;
+        align-items:center;
+        gap:2rem;
+    }
+
+    .stories .container{
+        padding-left:8.88vw;
+        padding-right:8.88vw;
+        padding-top:7.72vh;
+        padding-bottom:9.93vh;
+    }
+
+    .stories .container .story-and-read-more{
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        margin-right:0rem;   /* 704-640 */
+        margin-top:0rem;
+        margin-left:0rem;
+    }
+
+    .stories .container .story-and-read-more{
+        padding-top:0px;
+    }
+
+    .stories .container .story-and-read-more .story-and-name{
+        /* nothing in structure */
+    }
+
+    .stories .container .story-and-read-more .story-and-name{
+
+        background-color: #354463;
+        color:#FFFFFF;
+
+        padding-left:8.88vw;
+        padding-right:8.88vw;
+        padding-top:1.81rem;
+        padding-bottom:1.81rem;
+    }
+
+    .stories .container .story-and-read-more .story-and-name .story{
+        /* nothing in structure */
+    }
+
+    .stories .container .story-and-read-more .story-and-name .story{
+        font-weight:bold;
+        font-size:1.375rem;
+        line-height:1.75rem;
+        font-family:Helvetica, sans-serif;
+        padding-bottom:5.93vh;  
+        text-align:center;  
+    }
+
+    .stories .container .story-and-read-more .story-and-name .name{
+        /* nothing in structure */
+    }
+
+    .stories .container .story-and-read-more .story-and-name .name{
+        font-weight:normal;
+        font-size:0.68rem;
+        line-height:0.8125rem;
+        font-family:Helvetica, sans-serif;
+        text-align:center;
+    }
+
+    .stories .container .story-and-read-more .read-more-btn{
+        width:43.33vw;
+        height:2.5rem;
+        margin-top:2rem;
+    }
+
+    .stories .container .story-and-read-more .read-more-btn{
+        font-weight:bold;
+        font-size:1.125rem;
+        line-height:1.375rem;
+        font-family:Helvetica;
+        background-color:#C1F7D5;
+        border-radius:100px;
+    }
+
+
+    .stories .container .image-and-tag{
+        position:relative;
+        width:100%;
+    }
+
+    .stories .container .image-and-tag{
+        padding-top:0;
+    }
+
+    .stories .container .image-and-tag .image{
+        height:43.03vh;
+        width:100%;
+    }
+
+    .stories .container .image-and-tag .image{
+        object-fit:cover;
+    }
+
+    .stories .container .image-and-tag .tag{
+        position:absolute;
+        width:44.44vw;
+        height:2.5rem;
+        top:-1.25rem;;
+        left:17vw;
+    }
+
+    .stories .container .image-and-tag .tag{
+        font-size:0.875rem;
+        line-height:1.06rem;
+        font-weight:normal;
+        letter-spacing:0.56px;
+    }
+}
+
+
+/* Take a action */
+
+.action-card{
+    display:flex;
+    justify-content:space-between;
+
+}
+
+.action-card{
+    /* nothing in style */
+}
+
+.action-card .image{
+    height:64vh;
+    width:40vw;
+}
+
+.action-card .image{
+    object-fit:cover;
+}
+
+
+.action-card .event-desc-read-more{
+    /* nothing in structure */
+}
+
+.action-card .event-desc-read-more{
+    padding-left:6.66vw;
+}
+
+.action-card .event-desc-read-more .tag{
+    width:11.11vw;
+    height:2.5rem;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.action-card .event-desc-read-more .tag{
+    background-color:white;
+    white-space:nowrap;
+    font-family:Helvetica;
+    color:#354463;
+    font-size:0.875rem;
+    line-height:1.06rem;
+}
+
+.action-card .event-desc-read-more .action-event-heading{
+    width:80%;
+    margin-top:3rem;
+}
+
+.action-card .event-desc-read-more .action-event-heading{
+ 
+    font-family:Helvetica;
+    color:white;
+    font-size:2.75rem;
+    line-height:3.5rem;
+    font-weight:bold;
+}
+
+.action-card .event-desc-read-more .action-event-desc{
+    width:100%;
+    margin-top:1.375rem;
+}
+
+.action-card .event-desc-read-more .action-event-desc{
+    font-family:Helvetica;
+    color:white;
+    font-size:1.25rem;
+    line-height:2rem;
+    font-weight:300;
+    letter-spacing: -0.4px;
+}
+
+
+.action-card .event-desc-read-more .event-btn{
+    width:11.11vw;
+    height:3rem;
+    margin-top:3rem;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+}
+
+.action-card .event-desc-read-more .event-btn{
+
+    background-color: #C1F7D5;
+    border-radius:100px;
+
+    font-family:Helvetica;
+    color:#354463;
+    font-size:1.25rem;
+    line-height:1.375rem;
+    font-weight:bold;
+    letter-spacing: -0.4px;
+    
+}
+
+
+/* reusable-cards above */
+
+
+.take-a-action .container{
+    /* nothing in structure */
+}
+
+
+.take-a-action .container{
+    padding-left:11.11vw;
+    padding-top:8rem;
+    padding-right:11.11vw;
+    padding-bottom:7rem;
+    background-color:#354463;
+
+}
+
+
+.take-a-action .container .slogan{
+    width:52.93rem;
+}
+
+.take-a-action .container .slogan{
+    font-size:4.5rem;
+    line-height:4.75rem;
+    font-family:"flood-std";
+    color:white
+}
+
+.take-a-action .container .action-cards{
+    margin-top:4.625rem;
+    display:flex;
+    flex-direction:column;
+    gap:7rem;
+}
+
+.take-a-action .container .action-cards{
+    /* nothing in style */
+}
+
+
+.take-a-action .container .action-cards .action-card2{
+    
+    flex-direction:row-reverse;
+}
+
+.take-a-action .container .action-cards .action-card2{
+    
+    /* nothing in style */
+}
+
+
+.take-a-action .container .action-cards .action-card2 .event-desc-read-more{
+    /* nothing in structure */
+}
+
+.take-a-action .container .action-cards .action-card2 .event-desc-read-more{
+    padding-left:6.66vw;
+    padding-left:0;
+    padding-right:6.66vw;
+}
+
+
+/* done till here */
+
+
+@media screen and (min-width:768px) and (max-width:1080px){
+
+
+    .action-card{
+        display:flex;
+        justify-content:space-between;
+
+    }
+
+    .action-card{
+        /* nothin in style */
+    }
+
+    .action-card .image{
+        height:37.5vh;
+        width:39.72vw;
+    }
+
+    .action-card .image{
+        height:37.5vh;
+        width:39.72vw;
+    }
+
+
+    .action-card .event-desc-read-more{
+        /* nothin in structure */
+    }
+
+    .action-card .event-desc-read-more{
+        padding-left:8.33vw;
+    }
+
+    .action-card .event-desc-read-more .tag{
+        width:20.83vw;
+        height:2.5rem;
+
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+
+    .action-card .event-desc-read-more .tag{
+    
+        font-size:0.875rem;
+        line-height:1.06rem;
+
+    }
+
+    .action-card .event-desc-read-more .action-event-heading{
+        width:100%;
+        margin-top:2.25rem;
+
+    }
+
+    .action-card .event-desc-read-more .action-event-heading{
+        font-size:1.75rem;
+        line-height:2.25rem;
+        font-weight:bold;
+    }
+
+    .action-card .event-desc-read-more .action-event-desc{
+        width:100%;
+        margin-top:2.06rem;
+    }
+
+
+     .action-card .event-desc-read-more .action-event-desc{
+        font-size:1rem;
+        line-height:1.7rem;
+        font-weight:300;
+        letter-spacing: -0.16px;
+    }
+
+
+    .action-card .event-desc-read-more .event-btn{
+        width:20.31vw;
+        height:2.5rem;
+        margin-top:3rem;        
+    }
+
+    .action-card .event-desc-read-more .event-btn{
+        font-size:1.125rem;
+        line-height:1.375rem;
+        white-space:nowrap;
+    }
+
+
+
+
+
+
+/* reusable-cards above */
+
+
+
+
+    .take-a-action .container{
+        /* nothing in structure */
+
+    }
+
+    .take-a-action .container{
+        padding-left:8.33vw;
+        padding-top:4.17rem;
+        padding-right:8.33vw;
+        padding-bottom:4.5rem;
+
+        background-color:#354463;
+
+    }
+
+
+    .take-a-action .container .slogan{
+        width:32.37rem;
+    }
+
+
+    .take-a-action .container .slogan{
+        font-size:2.75rem;
+        line-height:2.875rem;
+        font-family:flood-std;
+        color:white
+    }
+
+    .take-a-action .container .action-cards{
+        margin-top:3.69rem;
+        display:flex;
+        flex-direction:column;
+        gap:4.81rem;
+    }
+
+    .take-a-action .container .action-cards{
+        /* nothing in style */
+    }
+
+
+    .take-a-action .container .action-cards .action-card2{
+        
+        flex-direction:row-reverse;
+    }
+
+    .take-a-action .container .action-cards .action-card2{
+        
+        /* nothing in style */
+    }
+
+
+    .take-a-action .container .action-cards .action-card2 .event-desc-read-more{
+        /* nothing in structure */
+    }
+
+    .take-a-action .container .action-cards .action-card2 .event-desc-read-more{
+        padding-left:0;
+        padding-right:7.8vw;
+    }
+
+}
+
+
+
+@media screen and (max-width:767px){
+
+
+    .action-card{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        position:relative;
+    }
+
+    .action-card{
+        /* nothing in style */
+    }
+
+    .action-card .image{
+        width:100%;
+        height:19.5rem;
+    }
+
+    .action-card .image{
+        object-fit:cover;
+    }
+
+
+    .action-card .event-desc-read-more{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .action-card .event-desc-read-more{
+        padding-left:0;
+    }
+
+    .action-card .event-desc-read-more .tag{
+        width:44.44vw;
+        height:2.5rem;
+
+        display:flex;
+        align-items:center;
+        justify-content:center;
+
+        position:absolute;
+        top:-1.25rem;
+        left:19.11vw;
+
+
+    }
+
+
+     .action-card .event-desc-read-more .tag{
+        font-size:0.875rem;
+        line-height:1.06rem;
+        font-weight:normal;
+    }
+
+    .action-card .event-desc-read-more .action-event-heading{
+        width:100%;
+        margin-top:1.875rem;
+
+    }
+
+    .action-card .event-desc-read-more .action-event-heading{
+        
+        font-size:1.375rem;
+        line-height:1.75rem;
+        font-weight:bold;
+        text-align:center;
+
+    }
+
+    .action-card .event-desc-read-more .action-event-desc{
+        width:100%;
+        margin-top:1.5rem;
+    }
+
+    .action-card .event-desc-read-more .action-event-desc{
+        font-size:0.875rem;
+        line-height:1.5rem;
+        font-weight:100;
+        letter-spacing:0px;
+        text-align:center;
+    }
+
+
+    .action-card .event-desc-read-more .event-btn{
+        width:43.33vw;
+        height:2.5rem;
+        margin-top:1.06rem;
+        
+    }
+
+    .action-card .event-desc-read-more .event-btn{
+
+        font-size:1rem;
+        line-height:1.25rem;
+        white-space:nowrap;    
+        
+    }
+
+
+/* reusable-cards above */
+
+
+    .take-a-action .container{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+
+    }
+
+     .take-a-action .container{
+        padding-left:8.88vw;
+        padding-top:4.312rem;
+        padding-right:8.88vw;
+        padding-bottom:3.43rem;
+        background-color:#354463;
+    }
+
+
+    .take-a-action .container .slogan{
+        width:100%;
+    }
+
+    .take-a-action .container .slogan{
+        font-size:2.75rem;
+        line-height:2.875rem;
+        text-align:center;
+        font-family:"flood-std";
+        color:white;
+    }
+
+    .take-a-action .container .action-cards{
+        margin-top:4.56rem;
+        display:flex;
+        flex-direction:column;
+        gap:4.68rem;
+    }
+
+    .take-a-action .container .action-cards{
+        /* nothing in style */
+    }
+
+
+
+    /* card2 changed */
+    .take-a-action .container .action-cards .action-card2{
+        display:flex;
+        flex-direction:column;    
+    }
+
+    .take-a-action .container .action-cards .action-card2{
+        /* nothing in style     */
+    }
+
+
+    .take-a-action .container .action-cards .action-card2 .event-desc-read-more{
+        /* nothing in structure */
+    }
+
+    .take-a-action .container .action-cards .action-card2 .event-desc-read-more{
+        padding-left:0;
+        padding-right:0;
+    }
+
+}
+
+
+
+
+
+/* news-letter */
+
+.news-letter{
+    /* nothing in structure */
+}
+
+.news-letter{
+    padding-left:11.11vw;
+    padding-right:11.11vw;
+    padding-top:4.31rem;
+    padding-bottom:4.31rem;
+    font-family:Helvetica;
+    color:#354463;
+    background-color:#C1F7D5;
+}
+
+
+.news-letter .container{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:2rem;
+}
+
+.news-letter .container{
+    /* nothing in style */
+}
+
+
+.news-letter .container .info{
+    /* nothing in structure */
+}
+
+.news-letter .container .info{
+    font-size:1.75rem;
+    line-height:2.25rem;
+    font-weight:bold;
+}
+
+.news-letter .container .input-email-and-readmore{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.news-letter .container .input-email-and-readmore{
+    /* nothing in style */
+}
+
+.news-letter .container .input-email-and-readmore .input-email{
+    width:24.44vw;
+    height:3rem;
+}
+
+.news-letter .container .input-email-and-readmore .input-email{
+
+    border:none;
+    border-radius:100px;
+    padding-left:1.66vw;
+    font-size:1.25rem;
+    letter-spacing:-0.4px;
+    color:#354463;
+}
+
+
+.news-letter .container .input-email-and-readmore .input-email:focus{
+    outline:3px solid #354463;
+}
+
+.news-letter .container .input-email-and-readmore .read-more-btn{
+    width:11.11vw;
+    height:3rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.news-letter .container .input-email-and-readmore .read-more-btn{
+
+    border:none;
+    border-radius:100px;
+    font-size:1.125rem;
+    line-height:1.374;
+
+    background-color:#354463;
+    color:#C1F7D5;
+}
+
+
+
+
+
+@media screen and (min-width:768px) and (max-width:1080px){
+    .news-letter{
+        /* nothing in structure */
+    }
+
+    .news-letter{
+        padding-left:8.33vw;
+        padding-right:8.33vw;
+        padding-top:3.81rem;
+        padding-bottom:3.93rem;
+    }
+
+
+    .news-letter .container{
+        display:grid;
+        grid-template-columns:1fr;
+        grid-template-rows:1fr 1fr;
+        gap:2rem;
+    }
+
+    .news-letter .container{
+        /* nothing in style */
+    }
+
+
+    .news-letter .container .info{
+        grid-row:1/2;
+        width:28rem;
+    }
+
+
+    .news-letter .container .info{
+        font-size:1.375rem;
+        line-height:1.75rem;
+        font-weight:bold;
+
+    }
+
+    .news-letter .container .input-email-and-readmore{
+        grid-row:2/2;
+    }
+
+    .news-letter .container .input-email-and-readmore{
+        /* nothing in style */
+     }
+
+    .news-letter .container .input-email-and-readmore .input-email{
+
+        width:58.33vw;
+        height:2.5rem;
+    }
+
+    .news-letter .container .input-email-and-readmore .input-email{
+        border-radius:100px;
+        padding-left:3.125vw;
+        font-size:1rem;
+        letter-spacing:-0.4px;
+    }
+
+    .news-letter .container .input-email-and-readmore .read-more-btn{
+        width:20.83vw;
+        height:2.5rem;
+    }
+
+    .news-letter .container .input-email-and-readmore .read-more-btn{
+        border-radius:100px;
+        font-size:1.125rem;
+        line-height:1.375;
+    }
+}
+
+
+@media screen and (max-width:767px){
+    .news-letter{
+        /* nothing in structure */
+    }
+
+     .news-letter{
+        padding-left:8.88vw;
+        padding-right:6.11vw;
+        padding-top:2.25rem;
+        padding-bottom:2rem;
+    }
+
+
+    .news-letter .container{
+        display:grid;
+        grid-template-columns:1fr;
+        grid-template-rows:1fr 1fr;
+        gap:0rem;
+    }
+
+    .news-letter .container{
+        /* nothing in style */
+    }
+
+
+    .news-letter .container .info{
+        grid-row:1/2;
+        width:100%;
+    }
+
+    .news-letter .container .info{
+        font-size:1.3rem;
+        line-height:1.75rem;
+        font-weight:bold;
+    }
+
+    .news-letter .container .input-email-and-readmore{
+        grid-row:2/2;
+        gap:0.5rem;
+        margin-top:0rem;
+    }
+
+    .news-letter .container .input-email-and-readmore{
+        /* nothing in style */
+        
+    }
+
+    .news-letter .container .input-email-and-readmore .input-email{
+
+        width:53.33vw;
+        height:2.5rem;
+    }
+
+     .news-letter .container .input-email-and-readmore .input-email{
+        border-radius:100px;
+        padding-left:1rem;
+        /* padding-right:1.43rem; */
+        font-size:0.875rem;
+        letter-spacing:-0.14px;
+    }
+
+    .news-letter .container .input-email-and-readmore .read-more-btn{
+        width:31.11vw;
+        height:2.5rem;
+    }
+
+     .news-letter .container .input-email-and-readmore .read-more-btn{
+        border-radius:100px;
+        font-size:1rem;
+        line-height:1.18;
+    }
+}
+
+
+
+/* footer */
+
+
+
+.footer-card {
+    height: 7.125rem;
+    width: 10rem;
+}
+
+.footer-card {
+    color: #354463;
+}
+
+
+.footer-card .card-heading {
+    /* nothing in structure */
+}
+
+.footer-card .card-heading {
+    font-size: 0.875rem;
+    line-height: 1.06rem;
+    font-family: Helvetica;
+    letter-spacing: 0.56px;
+    border-bottom: 1px solid #354463;
+    padding-top: 0.30rem;
+    padding-bottom: 0.56rem;
+    
+}
+
+
+/* new fixed code, put links inside links class first */
+
+
+.footer-card .links{
+    /* nothing in structure */
+}
+
+.footer-card .links{
+    padding-top:0.6rem;
+}
+
+.footer-card .address {
+    /* nothing in structure */
+}
+
+.footer-card .address {
+    padding-top:0.6rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-family: Helvetica;
+    letter-spacing: -0.14px;
+    font-weight: 300;
+}
+
+/* fixed till here */
+
+
+.footer-card .link{
+    display: block;
+}
+
+.footer-card .link{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-family: Helvetica;
+    letter-spacing: -0.14px;
+    font-weight: 300;
+}
+
+
+.footer {
+    /* nothing in structure */
+}
+
+
+.footer {
+    padding-left: 11.11vw;
+    padding-top: 7.06rem;
+    padding-right: 10.97vw;
+    padding-bottom: 7.51rem;
+}
+
+
+.footer .container {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr 1.5fr;
+    grid-template-rows: 1fr;
+}
+
+.footer .container {
+    /* nothing in style */
+}
+
+.footer .container .footer-logo {
+    width: 12rem;
+    height: 5.06rem;
+}
+
+.footer .container .footer-logo {
+    font-size: 1.375rem;
+    line-height: 1.75rem;
+    font-weight: bold;
+    color: #354463;
+    font-family: Helvetica;
+}
+
+
+
+.footer .container .footer-slogan {
+    width: 11.31rem;
+    height: 8.5rem;
+    margin-top: -0.4375rem;         /*fixed this too */
+}
+
+.footer .container .footer-slogan {
+    font-size: 2.75rem;
+    font-family: flood-std;
+    color: #354463;
+    padding-left: 6.75rem;
+}
+
+
+
+
+@media screen and (min-width:768px) and (max-width:1080px) {
+
+    .footer-card {
+        height: 7.25rem;
+        width: 16.40vw;
+
+    }
+    .footer-card {
+        color: #354463;
+    }
+
+
+    .footer-card .card-heading {
+        /* nothing in structure */
+    }
+
+    .footer-card .card-heading {
+        font-size: 0.68rem;
+        line-height: 0.81rem;
+        font-family: Helvetica;
+        letter-spacing: 0.44px;
+        border: none;
+        padding-top: 0.30rem;
+        padding-bottom: 0rem;       /* fixed */
+    }
+
+    .footer-card .address {
+        /* nothing in structure */
+    }
+
+
+    .footer-card .address {
+        padding-top:0.68rem;    /* fixed */
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        font-family: Helvetica;
+        letter-spacing: -0.14px;
+        font-weight: 300;
+    }
+
+    .footer-card .links{
+    /* nothing in structure */
+    }
+
+    .footer-card .links{
+        padding-top:0.68rem;    /* fixed */
+    }
+
+
+    .footer-card .link {
+        display: block;
+    }
+
+    .footer-card .link {
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        font-family: Helvetica;
+        letter-spacing: -0.14px;
+        font-weight: 300;
+        text-decoration: underline;
+    }
+
+
+
+
+    .footer {
+        /* nothing on structure */
+    }
+
+    .footer {
+        padding-left: 8.33vw;
+        padding-top: 3.75rem;
+        padding-right: 9.76vw;
+        padding-bottom: 3.32rem;
+    }
+
+    .footer .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 3rem;
+    }
+
+    .footer .container {
+        /* nothing in style */
+    }
+
+    .footer .container .footer-logo {
+        width: 9.56rem;
+        height: 3.125rem;
+
+        grid-row: 1/2;
+        grid-column: 1/2;
+    }
+
+    .footer .container .footer-logo {
+        /* nothing in style */
+    }
+
+
+
+    .footer .container .footer-slogan {
+        width: 11.31rem;
+        height: 8.5rem;
+
+        grid-row: 2/3;
+        grid-column: 3/4;
+        padding-left: 0rem;
+        margin-top: -0.6rem;
+    }
+
+    .footer .container .footer-slogan {
+        /* nothing in style */
+    }
+
+
+
+    .footer .container .contact-us {
+        grid-row: 1/2;
+        grid-column: 2/3;
+    }
+
+    .footer .container .contact-us {
+        padding-top: 0.2rem;
+    }
+
+    .footer .container .follow-us {
+        margin-top: -0.3rem;
+        grid-row: 1/2;
+        grid-column: 3/4;
+    }
+
+    .footer .container .follow-us {
+        /* nothing in style */
+    }
+
+    .footer .container .learn-more {
+        grid-row: 2/3;
+        grid-column: 2/3;
+    }
+
+    .footer .container .learn-more {
+        /* nothing in style */
+    }
+
+}
+
+
+
+@media screen and (max-width:767px) {
+
+
+    .footer-card {
+        height: 8.25rem;
+        width: 35vw;
+    }
+
+    .footer-card {
+        color: #354463;
+    }
+
+
+    .footer-card .card-heading {
+        /* nothing in structure */
+    }
+
+    .footer-card .card-heading {
+        font-size: 0.68rem;
+        line-height: 0.81rem;
+        font-family: Helvetica;
+        letter-spacing: 0.0275rem;
+        border: none;
+        padding-top: 0.30rem;
+        padding-bottom: 0rem;    /* fixed this */
+    }
+
+    .footer-card .address {
+        /* nothing in structure */
+    }
+
+    .footer-card .address {
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        font-family: Helvetica;
+        letter-spacing: -0.00875rem;
+        font-weight: 300;
+    }
+
+    .footer-card .link {
+        display: block;
+    }
+
+    .footer-card .link {
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        font-family: Helvetica;
+        letter-spacing: -0.14px;
+        font-weight: 300;
+        text-decoration: underline;
+    }
+
+
+    .footer {
+        /* nothing in structure */
+    }
+
+    .footer {
+        padding-left: 8.88vw;
+        padding-top: 4.18rem;
+        padding-right: 8.61vw;
+        padding-bottom: 3.44rem;
+    }
+
+    .footer .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 3rem;
+    }
+
+    .footer .container {
+       /* nothing in style */
+    }
+
+    .footer .container .footer-logo {
+        width: 5.875rem;
+        height: 3.875rem;
+
+        grid-row: 1/2;
+        grid-column: 1/2;
+    }
+
+    .footer .container .footer-logo {
+        font-size: 1.125rem;
+        line-height: 1.375rem;
+    }
+
+    .footer .container .footer-slogan {
+        width: 11.31rem;
+        height: 8.5rem;
+        grid-row: 3/4;
+        grid-column: 1/3;
+        margin-top: -0.6rem;
+    }
+
+     .footer .container .footer-slogan {
+        font-size: 2.75rem;
+        line-height: 2.875rem;
+        padding-left: 7.3rem;
+    }
+
+
+
+    .footer .container .contact-us {
+        grid-row: 1/2;
+        grid-column: 2/3;
+        margin-top: -0.18rem;
+    }
+
+     .footer .container .contact-us {
+        padding-top: 0rem;
+        padding-bottom: 0.68rem;
+    }
+
+    .footer .container .follow-us {
+        margin-top: -0.3rem;
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+
+     .footer .container .follow-us {
+        /* nothing in style */
+    }
+
+    .footer .container .learn-more {
+        grid-row: 2/3;
+        grid-column: 2/3;
+        margin-top: -0.31rem;
+    }
+
+    .footer .container .learn-more {
+        /* nothing in style */
+    }
+
+}
