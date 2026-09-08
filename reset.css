@@ -1,0 +1,26 @@
+*{
+    padding:0px;
+    margin:0px;
+    text-decoration:none;
+    box-sizing:border-box;      /* cried for 1 day becuase of this, padding was going out of box */
+
+    /* font-family: Helvetica; */
+    /* font-size: 1.5rem;
+    line-height: 1.75rem; These overwrite html fontsize too which affects rem even font
+    helvetica creates problem and increases all elements font size. */
+
+
+}
+
+html {
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    margin: 0;
+}
