@@ -1,0 +1,141 @@
+.btn{
+    width:10rem;
+    height:3rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    opacity: 1; 
+}
+
+.btn{
+    padding-left:0.875vw;
+    padding-right:0.875vw;
+
+    background-color: #C1F7D5;
+    border-radius: 6.25rem;
+    color: #354463;
+
+
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: 1.125rem;
+    line-height:1.375rem;
+    font-family: Helvetica;
+    white-space:nowrap;
+
+}
+
+
+@media screen and (min-width:1081px){
+
+.btn:hover{
+    border:2px solid #354463;
+    font-size:1rem;
+}
+}
+
+@media screen and (min-width:768px) and (max-width:1080px){
+
+    .btn{
+        width:8.75rem;
+        height:3rem;
+        
+    }
+
+    .btn{
+        padding-left:2.08vw;
+        padding-right:1.30vw;
+
+        font-size: 1.125rem;
+        line-height:1.375rem;
+        font-family: Helvetica;
+        white-space:nowrap;
+
+    }
+
+    .btn:hover{
+        border:2px solid #354463;
+        font-size:1rem;
+    }
+}
+
+
+@media screen and (max-width:767px){
+
+    .btn{
+        width:8.75rem;
+        height:3rem;
+        
+    }
+
+    .btn{
+        padding-left:2.08vw;
+        padding-right:1.30vw;
+
+        font-size: 1.125rem;
+        line-height:1.375rem;
+        font-family: Helvetica;
+        white-space:nowrap;
+
+    }
+
+    .btn:hover{
+        border:2px solid #354463;
+        font-size:1rem;
+    }
+}
+
+
+
+
+
+.tag{
+    width:10rem;
+    height:2.5rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.tag{
+    background-color:#354463;
+    color:white;
+    letter-spacing:0.56px;
+    font-family:Helvetica;
+    font-size:0.875rem;
+    line-height:1.06rem;
+    white-space:nowrap;
+}
+
+
+
+@media screen and (min-width:768px) and (max-width:1080px){
+
+    .tag{
+        width:9.75rem;
+    }
+
+    .tag{
+        letter-spacing:0.56px;
+        font-size:0.875rem;
+        line-height:1.06rem;
+    }
+
+}
+
+
+@media screen and (max-width:767px){
+
+    .tag{
+        width:10rem;
+    }
+
+    .tag{
+        letter-spacing:0.56px;
+        font-size:0.875rem;
+        line-height:1.06rem;
+    }
+
+}
