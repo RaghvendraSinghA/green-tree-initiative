@@ -14,8 +14,8 @@
 
 
 .navbar .container{
-    margin-left:11vw;
-    margin-right:11vw;
+    padding-right:11vw;
+    padding-left:11vw;
     height:inherit;
 
     display:flex;
@@ -97,35 +97,8 @@
 
 .navbar .container .donate-today-btn{
     /* width:11.11vw; this was breaking*/
-    width:10rem;
-    height:3rem;
-    display:flex;
-    justify-content:center;
-    align-items:center;
     margin-left:4.9vw;
-    opacity: 1; 
 }
-
-.navbar .container .donate-today-btn{
-    padding-left:0.875vw;
-    padding-right:0.875vw;
-
-    background-color: #C1F7D5;
-    background-clip: padding-box;
-    border-radius: 6.25rem;
-    color: #354463;
-
-
-    font-style: normal;
-    font-variant: normal;
-    font-weight: bold;
-    font-size: 1.125rem;
-    line-height:1.375rem;
-    font-family: Helvetica;
-
-}
-
-
 
 /* media queries */
 
@@ -135,8 +108,8 @@
     /* navbar-home */
 
     .navbar .container{
-        margin-left:8.33vw;
-        margin-right:8.33vw;
+        padding-left:8.33vw;
+        padding-right:8.33vw;
         height:inherit;
         justify-content:start;
     }
@@ -161,15 +134,11 @@
 
 
     .navbar .container .donate-today-btn{
-        height:2rem;
-        justify-content:center;
         margin-left:0vw;
      }
 
      .navbar .container .donate-today-btn{
-        white-space:nowrap;
-        font-size: 1rem;
-        line-height:1rem;
+        /* nothing in style */
      }
 
 
@@ -194,8 +163,8 @@
         justify-content:space-evenly;
         align-items:end;
 
-        margin-left:8.8vw;
-        margin-right:8.51vw;
+        padding-left:8.8vw;
+        padding-right:8.51vw;
     }
 
     .navbar .container{
@@ -271,10 +240,6 @@
 /*pseudo selectors for 1080 and above on header*/
 
 @media screen and (min-width:1081px){
-
-.navbar .container .donate-today-btn:hover{
-    border:2px solid #354463;
-}
 
 .navbar .container .logo-and-links .links .about-us:hover{
     height:3.125rem;
@@ -357,20 +322,11 @@
     left:4.7vw;
     width:11.11vw;
     height:4.44vh;
-
-    display:flex;
-    align-items:center;
-    justify-content:center;
-
 }
 
 
 .main .issue-and-slogan .issue .issue-tag{
-    background-color:#354463;
-    color:white;
-    letter-spacing: 0.035rem;
-    font-family: Helvetica;
-    white-space:nowrap;
+    /* nothin in style */
 }
 
 
@@ -382,7 +338,7 @@
     font-style: normal;
     font-variant: normal;
     font-weight: bold;
-    font-size: 4.8vh;
+    font-size: 4.88vh;
     line-height: 6.22vh;
     font-family: Helvetica;
     color:#354463;
@@ -489,9 +445,7 @@
     }
 
     .main .issue-and-slogan .issue .issue-tag{
-        font-size:1.93vh;
-        line-height:2.34vh;
-        letter-spacing: 0.56px;
+        /* nothing in style */
     }
 
     .main .issue-and-slogan .issue .info{
@@ -582,8 +536,8 @@
     }
 
     .main .issue-and-slogan .issue .info{
-        font-size:3.03vh;
-        line-height:3.8vh;
+        font-size:1.325rem;
+        line-height:1.75rem;
         letter-spacing:0px;
         text-align:center;
     }
@@ -593,8 +547,11 @@
     }
 
     .main .issue-and-slogan .issue .read-more{
-        letter-spacing:0px;
         text-align:center;
+        font-size:0.875rem;
+        letter-spacing:-0.00875rem;
+        padding-left:0.5rem;
+        padding-right:0.5rem;
     }
 
 }
@@ -744,8 +701,7 @@
     }
 
     .take-action .take-action-tag {
-        font-size:1.93vh;
-        line-height:2.34vh;
+        /* nothing in style */
     }
 
 }
@@ -792,6 +748,8 @@
 
     .take-action .container p{
         /* nothing in structure */
+        /* border:1px solid red; */
+        margin-top:0.30rem;
     }
 
     .take-action .container p{
@@ -879,23 +837,12 @@
 
 
 .card button{
-    width:11.11vw;
-    height:5.33vh;
-    display:flex;
-    align-items:center;
-    justify-content:center;
     margin-bottom:3.55vh;
     
 }
 
 .card button{
-    background-color:#C1F7D5;
-    border-radius:100px;
     border:none;
-    font-size:1.125rem;
-    line-height:1.375rem;
-    font-weight:bold;
-    color:#354463;
 }
 
 
@@ -1348,22 +1295,11 @@
 }
 
 .did-you-know .container .slogan-and-button .button{
-    margin-top:2.76rem;
-    width:11.11vw;
-    height:5.3vh;
-    display:flex;
-    align-items:center;
-    justify-content:center;
+    margin-top:4.76rem;
 }
 
 .did-you-know .container .slogan-and-button .button{
-    color:#354463;
-    border-radius:100px;
-    font-size:1.125rem;
-    font-weight:bold;
-    line-height:1.375rem;
-    font-family:Helvetica, sans-serif;
-    background-color:#C1F7D5;
+    /* nohting in style */
 }
 
 
@@ -1722,10 +1658,11 @@
     flex-direction:column;
     margin-right:-4.44vw;   /* 704-640 */
     z-index:1;
+    margin-top:-1.25rem;
 }
 
 .stories .container .story-and-read-more{
-    padding-top:14.66vh;
+    padding-top:8.25rem;
 }
 
 .stories .container .story-and-read-more .story-and-name{
@@ -1739,8 +1676,8 @@
 
     padding-left:4.44vw;
     padding-right:4.44vw;
-    padding-top:5.77vh;
-    padding-bottom:7vh;
+    padding-top:3.25rem;
+    padding-bottom:3.9rem;
 }
 
 .stories .container .story-and-read-more .story-and-name .story{
@@ -1767,30 +1704,17 @@
 }
 
 .stories .container .story-and-read-more .read-more-btn{
-    width:11.11vw;
-    height:3rem;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    margin-top:7.11vh;
+    margin-top:4rem;
 }
 
 .stories .container .story-and-read-more .read-more-btn{
-    font-weight:bold;
-    font-size:1.125rem;
-    line-height:1.375rem;
-    font-family:Helvetica, sans-serif;
-    background-color:#C1F7D5;
-    color:#354463;
-    border-radius:100px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    /* nothing in style */
 }
 
 
 .stories .container .image-and-tag .image{
-    height:63.11vh;
+    /* height:63.11vh; */
+    height:35.5rem;
     width:44.44vw;
 }
 
@@ -2146,29 +2070,18 @@
 
 
 .action-card .event-desc-read-more .event-btn{
-    width:11.11vw;
-    height:3rem;
     margin-top:3rem;
-
-    display:flex;
-    align-items:center;
-    justify-content:center;
     
 }
 
 .action-card .event-desc-read-more .event-btn{
-
-    background-color: #C1F7D5;
-    border-radius:100px;
-
-    font-family:Helvetica;
-    color:#354463;
-    font-size:1.25rem;
-    line-height:1.375rem;
-    font-weight:bold;
     letter-spacing: -0.4px;
-    
 }
+
+.action-card .event-desc-read-more .event-btn:hover{
+    border:2px solid orange;
+}
+
 
 
 /* reusable-cards above */
@@ -2637,22 +2550,16 @@
 }
 
 .news-letter .container .input-email-and-readmore .read-more-btn{
-    width:11.11vw;
-    height:3rem;
-    display:flex;
-    align-items:center;
-    justify-content:center;
+    /* nothing in structure */
 }
 
 .news-letter .container .input-email-and-readmore .read-more-btn{
-
-    border:none;
-    border-radius:100px;
-    font-size:1.125rem;
-    line-height:1.374;
-
     background-color:#354463;
     color:#C1F7D5;
+}
+
+.news-letter .container .input-email-and-readmore .read-more-btn:hover{
+    border:3px solid orange;
 }
 
 
