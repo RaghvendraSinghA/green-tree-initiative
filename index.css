@@ -111,7 +111,7 @@
         padding-left:8.33vw;
         padding-right:8.33vw;
         height:inherit;
-        justify-content:start;
+        justify-content:space-between;
     }
 
      .navbar .container{
@@ -139,6 +139,8 @@
 
      .navbar .container .donate-today-btn{
         /* nothing in style */
+        padding-left: 1rem;
+        padding-right: 0.625rem;
      }
 
 
